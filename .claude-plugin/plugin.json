@@ -1,0 +1,14 @@
+{
+  "name": "ja-office-skills",
+  "version": "1.1.0",
+  "description": "Friendly Japanese cognitive-aid skills for office life — explain, verify, decompose, summarize, gap-find, decide.",
+  "author": {
+    "name": "Stoyan Zhekov",
+    "email": "stoyan@agileware.jp",
+    "url": "https://github.com/zh"
+  },
+  "homepage": "https://github.com/zh/ja-office-skills",
+  "repository": "https://github.com/zh/ja-office-skills",
+  "license": "MIT",
+  "keywords": ["japanese", "office", "skills", "cognitive-aid", "non-engineer", "comprehension"]
+}
