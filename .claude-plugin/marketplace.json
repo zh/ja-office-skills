@@ -4,11 +4,17 @@
     "name": "Stoyan Zhekov",
     "email": "stoyan@agileware.jp"
   },
+  "metadata": {
+    "description": "Friendly Japanese cognitive-aid skills for office life — explain, verify, decompose, summarize, gap-find, decide."
+  },
   "plugins": [
     {
       "name": "ja-office-skills",
-      "source": ".",
-      "description": "9 friendly-Japanese office-life cognitive-aid skills (kantan, honto, bunkai + youten, nukemore, yougo, maemuki, utagai, kotae-awase)",
+      "source": {
+        "source": "github",
+        "repo": "zh/ja-office-skills"
+      },
+      "description": "9 friendly-Japanese office-life skills (kantan, honto, bunkai + youten, nukemore, yougo, maemuki, utagai, kotae-awase)",
       "version": "1.1.0"
     }
   ]
