@@ -2,7 +2,7 @@
 name: honto
 description: "AIの答えを「本当?」と疑ってチェックするスキル。信頼度、怪しいところ、確かめ方、別の見方を、フレンドリーな日本語で返す。ユーザーが /honto を叩いたとき、または直前のAIの答えを検証したいときに使う。"
 user_invocable: true
-version: "1.1.0"
+version: "1.2"
 ---
 
 # honto: 本当?

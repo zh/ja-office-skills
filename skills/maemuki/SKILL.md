@@ -2,7 +2,7 @@
 name: maemuki
 description: "[EN] Surface hidden costs, implicit assumptions, and clarifying questions before saying yes to a request. Output matches input language; `lang=en|ja` forces. [JA] 依頼に「はい」と返す前に隠れたコスト、暗黙の前提、確認すべき点を洗い出す。出力は入力言語に合わせる (`lang=en|ja` で強制)。ユーザーが /maemuki に依頼内容を渡したとき使う。"
 user_invocable: true
-version: "1.2.0"
+version: "1.2"
 ---
 
 # maemuki: 前向き / Forward-leaning

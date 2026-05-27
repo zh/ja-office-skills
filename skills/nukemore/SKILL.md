@@ -2,7 +2,7 @@
 name: nukemore
 description: "[EN] Surface gaps, implicit assumptions, and clarifying questions in a ticket / PR / spec before starting work. Document-form of /grill-me. Output matches input language; `lang=en|ja` forces. [JA] チケット/PR/仕様の抜け漏れ、暗黙の前提、聞くべき質問を洗い出す。/grill-me の文書版。出力は入力言語に合わせる (`lang=en|ja` で強制)。ユーザーが /nukemore にパスや文章を渡したとき使う。"
 user_invocable: true
-version: "1.2.0"
+version: "1.2"
 ---
 
 # nukemore: 抜け漏れ / Gaps

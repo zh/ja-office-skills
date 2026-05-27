@@ -2,7 +2,7 @@
 name: bunkai
 description: "複雑な話題を「部品」または「手順」に分けて、構造とつながりを見せるスキル。会社の非エンジニアの同僚向け。フレンドリーな日本語、専門用語ゼロ。ファイル保存なし、外部ツールなし。ユーザーが /bunkai に話題やプロセスを渡したときに使う。Claude Code でも Claude Cowork でも動く。"
 user_invocable: true
-version: "1.1.0"
+version: "1.2"
 ---
 
 # bunkai: 分解してみる

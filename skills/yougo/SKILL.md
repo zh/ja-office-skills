@@ -2,7 +2,7 @@
 name: yougo
 description: "日本のビジネス用語 (稟議・検収・工数・折衝など) を文脈付きでフレンドリーに説明する。説明は日本語、例文は日本語+英語訳付き。ユーザーが /yougo に用語や用語入りの文を渡したとき使う。"
 user_invocable: true
-version: "1.1.0"
+version: "1.2"
 ---
 
 # yougo: 用語

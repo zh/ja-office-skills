@@ -2,7 +2,7 @@
 name: utagai
 description: "[EN] Question your own thinking — find holes in a plan/diagnosis. Self-version of /honto. Output matches input language; `lang=en|ja` forces. [JA] 自分の考え/計画/診断を疑って穴を探す。/honto の自己版。出力は入力言語に合わせる (`lang=en|ja` で強制)。ユーザーが /utagai に自分の考えを渡したとき使う。"
 user_invocable: true
-version: "1.2.0"
+version: "1.2"
 ---
 
 # utagai: 疑い / Doubt

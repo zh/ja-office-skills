@@ -2,7 +2,7 @@
 name: youten
 description: "[EN] Compress a document (PDF / image / long text / URL) into 3 key points. Output matches input language; `lang=en|ja` forces. [JA] 資料 (PDF/画像/長文/URL) の要点を3項目に圧縮。出力は入力言語に合わせる (`lang=en|ja` で強制)。ユーザーが /youten にパスや文章を渡したとき使う。"
 user_invocable: true
-version: "1.2.0"
+version: "1.2"
 ---
 
 # youten: 要点 / Key points

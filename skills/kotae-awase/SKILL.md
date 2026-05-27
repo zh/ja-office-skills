@@ -2,7 +2,7 @@
 name: kotae-awase
 description: "[EN] Check whether your interpretation of a Japanese message is right. Pass original + interpretation; get match score, nuance, reply direction. Output language matches the interpretation language; `lang=en|ja` forces. [JA] 日本語メッセージへの自分の解釈が合ってるか確認する。原文+解釈を渡すと一致度、ニュアンス、返事の方向を返す。出力は解釈と同じ言語 (`lang=en|ja` で強制)。ユーザーが /kotae-awase に原文と解釈を渡したとき使う。"
 user_invocable: true
-version: "1.2.0"
+version: "1.2"
 ---
 
 # kotae-awase: 答え合わせ / Reading-check

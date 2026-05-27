@@ -2,7 +2,7 @@
 name: kantan
 description: "会社の非エンジニアの同僚に技術用語をフレンドリーな日本語で説明するスキル。出力はターミナルにそのまま表示し、ファイルは保存しない。ユーザーが /kantan に用語や概念を渡したときに使う。"
 user_invocable: true
-version: "1.1.0"
+version: "1.2"
 ---
 
 # kantan: わかりやすく

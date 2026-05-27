@@ -27,7 +27,7 @@ Designed for engineers and non-engineer office colleagues at Japanese companies 
 
 ## Output language (bilingual skills)
 
-The five bilingual skills (`/youten`, `/nukemore`, `/maemuki`, `/utagai`, `/kotae-awase`) enforce a strict language rule as of **1.2.0**:
+The five bilingual skills (`/youten`, `/nukemore`, `/maemuki`, `/utagai`, `/kotae-awase`) enforce a strict language rule as of **1.2.x**:
 
 1. **Explicit override wins.** If your argument starts with `lang=en` or `lang=ja`, that language is used and the token is stripped.
 
@@ -79,9 +79,9 @@ Requires Pro / Max / Team / Enterprise with code execution enabled.
 
 ## Upgrading from earlier versions
 
-### From 1.1.0 → 1.2.0
+### From 1.1.x → 1.2.x
 
-1.2.0 changes only the five bilingual skills (`utagai`, `maemuki`, `nukemore`, `youten`, `kotae-awase`). The other four (`kantan`, `honto`, `bunkai`, `yougo`) are unchanged.
+The 1.2.x series changes only the five bilingual skills (`utagai`, `maemuki`, `nukemore`, `youten`, `kotae-awase`). The other four (`kantan`, `honto`, `bunkai`, `yougo`) are unchanged.
 
 **What changed:**
 - A mandatory `Step 0` language decision was added to each bilingual skill, with auto-detect plus a `lang=en|ja` override.
@@ -115,12 +115,12 @@ ls ~/.claude/plugins/cache/ja-office-skills/ja-office-skills/
 cat ~/.claude/plugins/cache/ja-office-skills/ja-office-skills/1.2.*/.claude-plugin/plugin.json
 ```
 
-(The new directory will be `1.2.x`; the old `1.1.0` directory can be removed once you've confirmed the new version loads.)
+(The new directory will be `1.2.x`; the old `1.1.x` directory can be removed once you've confirmed the new version loads.)
 
 **How to upgrade (Claude Cowork / claude.ai web):**
-Remove the existing plugin/skill and upload the 1.2.0 release ZIP.
+Remove the existing plugin/skill and upload the latest 1.2.x release ZIP.
 
-**Rollback to 1.1.0:** install at the pinned older version (`/plugin install ja-office-skills@1.1.0` if your marketplace supports tags) or re-upload the older release ZIP. No data migration; the change is purely instructional.
+**Rollback to 1.1.x:** install at a pinned older version (`/plugin install ja-office-skills@1.1.x` if your marketplace supports tags) or re-upload an older release ZIP. No data migration; the change is purely instructional.
 
 ## Versioning
 
