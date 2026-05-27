@@ -1,6 +1,6 @@
 # ja-office-skills
 
-9 friendly-Japanese cognitive-aid skills for office life. Zero jargon, terminal output, no file saves, fixed format ≤25 lines.
+11 friendly-Japanese cognitive-aid skills for office life. Zero jargon, terminal output, no file saves, fixed format ≤25 lines.
 
 Designed for engineers and non-engineer office colleagues at Japanese companies — and especially helpful for non-native Japanese speakers who need a scaffold to read, verify, and decide faster.
 
@@ -24,6 +24,15 @@ Designed for engineers and non-engineer office colleagues at Japanese companies 
 | `/maemuki` | Pre-commitment check before saying yes — hidden costs, assumptions, what to confirm | bilingual (auto-detect, `lang=en\|ja` override) |
 | `/utagai` | Self-grill on your own thinking (`/honto` for your own plan) | bilingual (auto-detect, `lang=en\|ja` override) |
 | `/kotae-awase` | Verify your interpretation of a Japanese message — match score, missed nuance, reply direction | matches **interpretation** language (auto-detect, `lang=en\|ja` override) |
+
+### Translation pair (any → JA/EN)
+
+| Command | Purpose |
+|--|--|
+| `/ja` | Translate the previous message (or argument) to Japanese. Auto-detects source language. Matches source register (default です・ます). |
+| `/en` | Translate the previous message (or argument) to English. Auto-detects source language. Matches source register. |
+
+Designed for multilingual offices. `/ja` with no argument translates the most recent message in the conversation — useful right after `/kantan` or any other skill that produced JA output, when you want a quick English (or other-language) version, and vice versa. Code, URLs, @mentions, and proper nouns pass through verbatim. Refuses politely if the source is already in the target language.
 
 ## Output language (bilingual skills)
 
@@ -79,6 +88,16 @@ Requires Pro / Max / Team / Enterprise with code execution enabled.
 
 ## Upgrading from earlier versions
 
+### From 1.2.x → 1.3.0
+
+Adds two new skills: `/ja` and `/en` — quick translators between any source language and Japanese/English. No changes to the existing 9 skills.
+
+**Behavioral highlights:**
+- With no argument, translates the most recent message in the conversation (assistant or user), so it chains naturally after another skill (e.g. `/kantan` → `/en`).
+- Pure translation, length and structure match the source. One optional `Note:` line at the end if an idiom genuinely loses meaning.
+- Auto-detects the source language. Refuses with a one-line hint if the source is already in the target language (`Already in Japanese — did you mean /en?`).
+- No `lang=` override on these two skills — the command itself specifies the target language.
+
 ### From 1.1.x → 1.2.x
 
 The 1.2.x series changes only the five bilingual skills (`utagai`, `maemuki`, `nukemore`, `youten`, `kotae-awase`). The other four (`kantan`, `honto`, `bunkai`, `yougo`) are unchanged.
@@ -124,7 +143,7 @@ Remove the existing plugin/skill and upload the latest 1.2.x release ZIP.
 
 ## Versioning
 
-All 9 skills ship under a single plugin version. Current series: **1.2.x** — see [Releases](https://github.com/zh/ja-office-skills/releases) or `.claude-plugin/plugin.json` for the exact pinned version.
+All 11 skills ship under a single plugin version. Current series: **1.3.x** — see [Releases](https://github.com/zh/ja-office-skills/releases) or `.claude-plugin/plugin.json` for the exact pinned version.
 
 ## License
 
