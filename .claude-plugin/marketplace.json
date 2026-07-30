@@ -10,12 +10,64 @@
   "plugins": [
     {
       "name": "ja-office-skills",
-      "source": {
-        "source": "github",
-        "repo": "zh/ja-office-skills"
-      },
-      "description": "11 friendly-Japanese office-life skills (kantan, honto, bunkai + youten, nukemore, yougo, maemuki, utagai, kotae-awase + ja, en translators)",
-      "version": "1.3.1"
+      "source": "./",
+      "description": "All 11 friendly-Japanese office-life skills (kantan, honto, bunkai, youten, nukemore, yougo, maemuki, utagai, kotae-awase + ja/en translators)",
+      "version": "1.3.2"
+    },
+    {
+      "name": "kantan",
+      "source": "./skills/kantan",
+      "description": "Explain technical terms to non-engineers in friendly Japanese"
+    },
+    {
+      "name": "honto",
+      "source": "./skills/honto",
+      "description": "Verify an AI answer: confidence, weak spots, how to check, alternative views"
+    },
+    {
+      "name": "bunkai",
+      "source": "./skills/bunkai",
+      "description": "Decompose a complex topic or process into parts/steps, jargon-free Japanese"
+    },
+    {
+      "name": "youten",
+      "source": "./skills/youten",
+      "description": "Compress a document (PDF/image/long text/URL) into 3 key points"
+    },
+    {
+      "name": "nukemore",
+      "source": "./skills/nukemore",
+      "description": "Surface gaps, assumptions, and questions in a ticket/PR/spec before starting work"
+    },
+    {
+      "name": "yougo",
+      "source": "./skills/yougo",
+      "description": "Explain Japanese business terms (稟議・検収・工数…) with context and example sentences"
+    },
+    {
+      "name": "maemuki",
+      "source": "./skills/maemuki",
+      "description": "Surface hidden costs and assumptions before saying yes to a request"
+    },
+    {
+      "name": "utagai",
+      "source": "./skills/utagai",
+      "description": "Question your own thinking — find holes in a plan or diagnosis"
+    },
+    {
+      "name": "kotae-awase",
+      "source": "./skills/kotae-awase",
+      "description": "Check your interpretation of a Japanese message: match score, nuance, reply direction"
+    },
+    {
+      "name": "ja",
+      "source": "./skills/ja",
+      "description": "Translate the previous message or argument to Japanese"
+    },
+    {
+      "name": "en",
+      "source": "./skills/en",
+      "description": "Translate the previous message or argument to English"
     }
   ]
 }

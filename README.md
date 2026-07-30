@@ -1,5 +1,7 @@
 # ja-office-skills
 
+**English** | [日本語](README_ja.md)
+
 11 friendly-Japanese cognitive-aid skills for office life. Zero jargon, terminal output, no file saves, fixed format ≤25 lines.
 
 Designed for engineers and non-engineer office colleagues at Japanese companies — and especially helpful for non-native Japanese speakers who need a scaffold to read, verify, and decide faster.
@@ -61,8 +63,27 @@ Languages are never mixed in one response: the entire structure (section labels,
 
 ```bash
 /plugin marketplace add zh/ja-office-skills
-/plugin install ja-office-skills
+/plugin install ja-office-skills          # all 11 skills
 ```
+
+Or install skills individually (`<skill>@ja-office-skills`):
+
+```bash
+/plugin install honto@ja-office-skills
+/plugin install en@ja-office-skills
+/plugin install kantan@ja-office-skills
+# ... same for bunkai, youten, nukemore, yougo, maemuki, utagai, kotae-awase, ja
+```
+
+**Notes:**
+
+- Skills are invoked by their bare name — `/honto`, `/ja`, `/en` — with no plugin prefix needed (Claude Code ≥ 2.1.216). The namespaced form (`/ja-office-skills:honto`) only matters if another command claims the same name.
+- Install either the umbrella plugin **or** individual skills, not both — both at once gives you duplicate copies of each skill.
+- Installed plugins are cached and version-locked; pick up new releases with:
+
+  ```bash
+  /plugin update ja-office-skills
+  ```
 
 Or clone directly:
 
@@ -87,6 +108,10 @@ For org-wide deployment, admins can connect the GitHub repo or upload the ZIP at
 Requires Pro / Max / Team / Enterprise with code execution enabled.
 
 ## Upgrading from earlier versions
+
+### From 1.3.1 → 1.3.2
+
+No skill changes. The marketplace now lists each skill as an individually installable plugin (`/plugin install honto@ja-office-skills`) alongside the all-in-one `ja-office-skills` plugin, and a Japanese README (`README_ja.md`) was added.
 
 ### From 1.2.x → 1.3.0
 
